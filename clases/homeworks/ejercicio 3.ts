@@ -13,4 +13,8 @@ let person: [string, number] = ["Franco", 26];
 
 //crea un arreglo de strings
 
+let nuevoArray: [boolean, string ] = [true , 'hola']
+
+let arregloDeStrings : string[] = ['Hola', 'Soy', 'Un', 'Arreglo' , 'De', 'Strings']
+
 export {}

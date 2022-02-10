@@ -28,6 +28,16 @@ let diego: Estudiante = {
 
 // Investiga la palabra reservada implements
 
+interface NuevaInterface {
+    nombre(): string
+}
+
+class nuevaClase implements NuevaInterface {  
+    nombre() {
+        return 'algo'
+    };
+}
+
 // Existe otra alternativa para realizar lo mismo?
 // Si, types.
 
@@ -48,5 +58,6 @@ let Fede: Student = {
 }
 
 //Investiga sus diferencias
+
 
 export {}

@@ -30,4 +30,4 @@ function throwError(msg: string): never {
     console.log('un valor')
   }
 
-let resultado = suma(2, 2)
+let resultados = suma(2, 2)
